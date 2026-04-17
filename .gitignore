@@ -1,0 +1,14 @@
+# Python environments and caches
+__pycache__/
+*.pyc
+venv/
+env/
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+# Local databases/state
+hindsight_db/
+test_resp.txt

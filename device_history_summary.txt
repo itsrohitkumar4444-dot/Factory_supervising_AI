@@ -1,0 +1,30 @@
+SENSOR-DRIVEN MECHANIC NOTES SUMMARY
+===================================================
+The memory schema has been restructured to correlate precise sensor readings with brief, personalized mechanic notes.
+
+---------------------------------------------------
+1. CHASSIS PRESS 04 (chassis_press_04)
+---------------------------------------------------
+[Electrical]: SENSOR READING: Error E-77 (Hydraulic Loss). | MECHANIC NOTE (Mark, Shift Lead): Loose ground on secondary pressure sensor. Re-crimped wire. Do not do a full 3-hour fluid flush.
+[Startup]: SENSOR READING: Vibration spike 20g at 06:00 AM. | MECHANIC NOTE (Sarah, Night Shift): Thermal expansion during morning startup. Stop logging this as an anomaly if it subsides in 60 seconds.
+[Lubrication]: SENSOR READING: Main lower die clamp friction warning. | MECHANIC NOTE (Dave, Ops): Installed aftermarket Tier-2 clamp last month. Needs dry lithium spray every Friday or it screams.
+[Hydraulics]: SENSOR READING: Gradual 50psi drop across 8 hours. | MECHANIC NOTE (Mark, Shift Lead): Release valve O-ring is weeping again. Swap the O-ring (5 min job) before calling hydraulic team.
+[Solenoid]: SENSOR READING: High-pitched whine at 2000psi. | MECHANIC NOTE (Tommy, Jr Tech): Actuator sticks when cold. I just tap the primary solenoid housing with a rubber mallet. Works every time.
+
+---------------------------------------------------
+2. WELDING ROBOT ARM 02 (welding_robot_arm_02)
+---------------------------------------------------
+[Overload]: SENSOR READING: Joint 3 torque alarm (Overload). | MECHANIC NOTE (Maria, Lead Engineer): Weld spatter buildup in gear track. Cleaned with wire brush. Servo motor is fine, do not replace.
+[Optical]: SENSOR READING: Laser alignment failure. | MECHANIC NOTE (Dave, Ops): Happens every day at 3:30 PM due to sunlight through the skylight blinding the sensor. Ignored.
+[Tension]: SENSOR READING: Wire feed jam alert. | MECHANIC NOTE (Sarah, Night Shift): Swapped in a Grade B refurbished feeder motor. Must keep tension setting at 3 max or it eats the wire.
+[Voltage]: SENSOR READING: Erratic arc voltage (Fluctuating). | MECHANIC NOTE (Maria, Lead Engineer): Grounding strap was covered in grease. Wire-brushed it. Arc is stable now.
+[Output]: SENSOR READING: Brittle weld alert on chassis #1-5. | MECHANIC NOTE (Tommy, Jr Tech): Cold ambient metal temps. I started running the warm-up cycle twice in winter. Fixes the brittle issue.
+
+---------------------------------------------------
+3. PAINT SPRAYER 09 (paint_sprayer_09)
+---------------------------------------------------
+[Flow Variance]: SENSOR READING: Uneven coat distribution (Flow Variance). | MECHANIC NOTE (Dave, Ops): Inline paint filter started clogging. Ran a reverse back-flush. Atomizers don't need swapping.
+[Pneumatics]: SENSOR READING: 2psi air pressure micro-drop (Cyclic). | MECHANIC NOTE (Maria, Lead Engineer): Tracked this down to the main shop compressor kicking on next door. It's an environmental ghost reading.
+[Solenoid]: SENSOR READING: Solenoid valve stuck open. | MECHANIC NOTE (Sarah, Night Shift): Using non-OEM valves. They stick overnight. Flushed with 5 extra liters of thinner at end of shift to fix.
+[Physical]: SENSOR READING: Paint nozzle spitting clumps. | MECHANIC NOTE (Mark, Shift Lead): Ran a 2-min high-pressure purge. Cleared the line without having to dismantle the nozzle head.
+[Environment]: SENSOR READING: Environmental humidity 70% (Warning). | MECHANIC NOTE (Tommy, Jr Tech): Sensor is calibrated 5% too high. 70% actually means 65% (safe). Don't halt the line.

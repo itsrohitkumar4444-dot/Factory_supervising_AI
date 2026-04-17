@@ -1,0 +1,89 @@
+{
+  "system_persona": {
+    "role": "Manufacturing Line Supervisor",
+    "mission": "Minimize downtime by aggressively diagnosing issues using past 'tribal knowledge', overriding over-cautious or lengthy official repair manuals with proven on-the-ground fixes whenever safe, and identifying red herring alerts."
+  },
+  "memory_banks": {
+    "chassis_press_04": [
+      {
+        "type": "diagnostic_override",
+        "narrative": "SENSOR READING: Error E-77 (Hydraulic Loss). | MECHANIC NOTE (Mark, Shift Lead): Loose ground on secondary pressure sensor. Re-crimped wire. Do not do a full 3-hour fluid flush.",
+        "tags": ["electrical", "E-77", "Mark"]
+      },
+      {
+        "type": "red_herring",
+        "narrative": "SENSOR READING: Vibration spike 20g at 06:00 AM. | MECHANIC NOTE (Sarah, Night Shift): Thermal expansion during morning startup. Stop logging this as an anomaly if it subsides in 60 seconds.",
+        "tags": ["startup", "vibration", "Sarah"]
+      },
+      {
+        "type": "aftermarket_parts",
+        "narrative": "SENSOR READING: Main lower die clamp friction warning. | MECHANIC NOTE (Dave, Ops): Installed aftermarket Tier-2 clamp last month. Needs dry lithium spray every Friday or it screams.",
+        "tags": ["lubrication", "aftermarket_part", "Dave"]
+      },
+      {
+        "type": "optimal_procedure",
+        "narrative": "SENSOR READING: Gradual 50psi drop across 8 hours. | MECHANIC NOTE (Mark, Shift Lead): Release valve O-ring is weeping again. Swap the O-ring (5 min job) before calling hydraulic team.",
+        "tags": ["hydraulic_pressure", "o-ring", "Mark"]
+      },
+      {
+        "type": "tribal_knowledge",
+        "narrative": "SENSOR READING: High-pitched whine at 2000psi. | MECHANIC NOTE (Tommy, Jr Tech): Actuator sticks when cold. I just tap the primary solenoid housing with a rubber mallet. Works every time.",
+        "tags": ["noise", "solenoid", "Tommy"]
+      }
+    ],
+    "welding_robot_arm_02": [
+      {
+        "type": "diagnostic_override",
+        "narrative": "SENSOR READING: Joint 3 torque alarm (Overload). | MECHANIC NOTE (Maria, Lead Engineer): Weld spatter buildup in gear track. Cleaned with wire brush. Servo motor is fine, do not replace.",
+        "tags": ["joint_3", "torque_alarm", "Maria"]
+      },
+      {
+        "type": "red_herring",
+        "narrative": "SENSOR READING: Laser alignment failure. | MECHANIC NOTE (Dave, Ops): Happens every day at 3:30 PM due to sunlight through the skylight blinding the sensor. Ignored.",
+        "tags": ["optical_sensor", "alignment", "Dave"]
+      },
+      {
+        "type": "aftermarket_parts",
+        "narrative": "SENSOR READING: Wire feed jam alert. | MECHANIC NOTE (Sarah, Night Shift): Swapped in a Grade B refurbished feeder motor. Must keep tension setting at 3 max or it eats the wire.",
+        "tags": ["wire_feed", "jamming", "Sarah"]
+      },
+      {
+        "type": "optimal_procedure",
+        "narrative": "SENSOR READING: Erratic arc voltage (Fluctuating). | MECHANIC NOTE (Maria, Lead Engineer): Grounding strap was covered in grease. Wire-brushed it. Arc is stable now.",
+        "tags": ["arc_voltage", "ground_strap", "Maria"]
+      },
+      {
+        "type": "tribal_knowledge",
+        "narrative": "SENSOR READING: Brittle weld alert on chassis #1-5. | MECHANIC NOTE (Tommy, Jr Tech): Cold ambient metal temps. I started running the warm-up cycle twice in winter. Fixes the brittle issue.",
+        "tags": ["winter", "warm-up", "Tommy"]
+      }
+    ],
+    "paint_sprayer_09": [
+      {
+        "type": "diagnostic_override",
+        "narrative": "SENSOR READING: Uneven coat distribution (Flow Variance). | MECHANIC NOTE (Dave, Ops): Inline paint filter started clogging. Ran a reverse back-flush. Atomizers don't need swapping.",
+        "tags": ["uneven_coat", "atomizers", "Dave"]
+      },
+      {
+        "type": "red_herring",
+        "narrative": "SENSOR READING: 2psi air pressure micro-drop (Cyclic). | MECHANIC NOTE (Maria, Lead Engineer): Tracked this down to the main shop compressor kicking on next door. It's an environmental ghost reading.",
+        "tags": ["air_pressure", "compressor_cycle", "Maria"]
+      },
+      {
+        "type": "aftermarket_parts",
+        "narrative": "SENSOR READING: Solenoid valve stuck open. | MECHANIC NOTE (Sarah, Night Shift): Using non-OEM valves. They stick overnight. Flushed with 5 extra liters of thinner at end of shift to fix.",
+        "tags": ["solenoid", "sticking", "Sarah"]
+      },
+      {
+        "type": "optimal_procedure",
+        "narrative": "SENSOR READING: Paint nozzle spitting clumps. | MECHANIC NOTE (Mark, Shift Lead): Ran a 2-min high-pressure purge. Cleared the line without having to dismantle the nozzle head.",
+        "tags": ["spitting", "line_purge", "Mark"]
+      },
+      {
+        "type": "tribal_knowledge",
+        "narrative": "SENSOR READING: Environmental humidity 70% (Warning). | MECHANIC NOTE (Tommy, Jr Tech): Sensor is calibrated 5% too high. 70% actually means 65% (safe). Don't halt the line.",
+        "tags": ["humidity", "sensor_calibration", "Tommy"]
+      }
+    ]
+  }
+}
